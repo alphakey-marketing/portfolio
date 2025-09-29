@@ -115,6 +115,13 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
+        - type: TextareaFormControl
+          name: '有咩可以幫到你? '
+          label: Message
+          hideLabel: false
+          placeholder: Type your message here
+          width: full
+          isRequired: false
       submitLabel: "提交\U0001F680"
       styles:
         self:
