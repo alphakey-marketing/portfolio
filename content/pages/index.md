@@ -111,7 +111,7 @@ sections:
           width: 1/2
           type: EmailFormControl
         - name: updatesConsent
-          label: Sign me up to recieve updates
+          label: 我想收到每月最新文章
           isRequired: false
           width: full
           type: CheckboxFormControl
