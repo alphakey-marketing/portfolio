@@ -106,7 +106,7 @@ sections:
         - name: email
           label: Email
           hideLabel: true
-          placeholder: Whatsapp Number
+          placeholder: Whatsapp 電話
           isRequired: true
           width: 1/2
           type: EmailFormControl
