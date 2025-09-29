@@ -106,7 +106,7 @@ sections:
         - name: email
           label: Email
           hideLabel: true
-          placeholder: Email
+          placeholder: Whatsapp Number
           isRequired: true
           width: 1/2
           type: EmailFormControl
