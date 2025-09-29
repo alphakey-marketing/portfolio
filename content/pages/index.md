@@ -111,7 +111,7 @@ sections:
           width: 1/2
           type: EmailFormControl
         - name: updatesConsent
-          label: 我想收到每月最新文章
+          label: 我想收到每月最新分享文章
           isRequired: false
           width: full
           type: CheckboxFormControl
