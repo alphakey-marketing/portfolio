@@ -6,8 +6,18 @@ const nextConfig = {
     trailingSlash: true,
     reactStrictMode: true,
     // Replit proxy configuration
-    experimental: {
-        allowedOrigins: '*'
+    async headers() {
+        return [
+            {
+                source: '/(.*)',
+                headers: [
+                    {
+                        key: 'X-Frame-Options',
+                        value: 'SAMEORIGIN'
+                    }
+                ]
+            }
+        ];
     }
 };
 
