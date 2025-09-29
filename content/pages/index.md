@@ -110,11 +110,6 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: updatesConsent
-          label: 我想收到每月最新分享文章
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
         - type: TextareaFormControl
           name: message
           label: ''
@@ -122,6 +117,11 @@ sections:
           placeholder: '有咩可以幫到你? '
           width: full
           isRequired: false
+        - name: updatesConsent
+          label: 我想收到每月最新分享文章
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
       submitLabel: "提交\U0001F680"
       styles:
         self:
