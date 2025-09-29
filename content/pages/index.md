@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-a
+    colors: colors-c
     backgroundSize: full
     title: 「咖啡還是茶？對、錯還是中性？我都會細心考慮。」
     subtitle: >-
