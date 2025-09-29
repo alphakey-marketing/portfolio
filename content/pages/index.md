@@ -116,7 +116,7 @@ sections:
           width: full
           type: CheckboxFormControl
         - type: TextareaFormControl
-          name: '有咩可以幫到你? '
+          name: ''
           label: '有咩可以幫到你? '
           hideLabel: false
           placeholder: '有咩可以幫到你? '
