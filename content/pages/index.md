@@ -119,7 +119,7 @@ sections:
           name: '有咩可以幫到你? '
           label: '有咩可以幫到你? '
           hideLabel: false
-          placeholder: Type your message here
+          placeholder: '有咩可以幫到你? '
           width: full
           isRequired: false
       submitLabel: "提交\U0001F680"
