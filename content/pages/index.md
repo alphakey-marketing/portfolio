@@ -103,8 +103,8 @@ sections:
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: email
-          label: Email
+        - name: Whatsapp 電話
+          label: Whatsapp 電話
           hideLabel: true
           placeholder: Whatsapp 電話
           isRequired: true
