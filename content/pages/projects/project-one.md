@@ -1,6 +1,8 @@
 ---
 type: ProjectLayout
-title: 如何借助「Hypnosis Clients On Demand」系統，催眠治療師實現客戶源源不絕的夢想
+title: >-
+  How the "Hypnosis Clients on Demand" System is Transforming Hypnotherapy
+  Marketing
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
