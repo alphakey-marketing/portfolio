@@ -91,7 +91,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "想要營銷自在感? 幫你營銷睇得透，做得爽，send條message嚟啦! \U0001F4AC"
+    title: "想要營銷自在感? 靈性感知 + 專業細心，揾我傾吓啦...\U0001F4AC"
     form:
       type: FormBlock
       elementId: sign-up-form
