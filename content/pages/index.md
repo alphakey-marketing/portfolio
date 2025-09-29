@@ -15,9 +15,7 @@ sections:
     backgroundSize: full
     title: 「咖啡還是茶？對、錯還是中性？我都會細心考慮。」
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Hi，我是個有點奇怪的營銷人。白天，我幫品牌寫文案、分析數據、設計策略；晚上，我會靜心冥想，用靈性直覺感受品牌背後的真實能量。週末？你會在羽球場找到我，大汗淋漓地追著小白球跑。朋友說我很細心（有時候細心到有點煩），但我最自豪的是能從「對、錯、中性」三個角度看問題。這讓我在營銷這個充滿灰色地帶的世界裡，總能找到平衡點。我相信最好的營銷策略，就像打羽毛球一樣：需要技巧，更需要直覺。
     styles:
       self:
         height: auto
