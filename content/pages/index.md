@@ -40,6 +40,19 @@ sections:
         textAlign: left
     type: HeroSection
     actions: []
+  - type: RandomFactSection
+    elementId: random-fact
+    colors: colors-f
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        textAlign: center
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
