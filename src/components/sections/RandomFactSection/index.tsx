@@ -42,7 +42,7 @@ export default function RandomFactSection(props) {
                     🎲 告訴我一個關於我的隨機事實
                 </button>
                 {currentFact && (
-                    <div className="mt-6 p-6 max-w-3xl text-lg sm:text-xl font-semibold text-center bg-white bg-opacity-20 backdrop-blur-sm rounded-2xl border-2 border-white border-opacity-30 transition-all duration-500">
+                    <div className="mt-6 p-6 max-w-3xl text-lg sm:text-xl font-semibold text-center text-white bg-black bg-opacity-50 backdrop-blur-sm rounded-2xl border-2 border-white border-opacity-40 transition-all duration-500 shadow-xl">
                         {currentFact}
                     </div>
                 )}
