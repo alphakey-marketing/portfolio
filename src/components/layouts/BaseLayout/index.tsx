@@ -4,6 +4,7 @@ import { Annotated } from '@/components/Annotated';
 import { BackgroundImage } from '@/components/atoms';
 import Footer from '@/components/sections/Footer';
 import Header from '@/components/sections/Header';
+import StarfieldBackground from '@/components/effects/StarfieldBackground';
 import { PageComponentProps } from '@/types';
 import { PageModelType } from '@/types/generated';
 
@@ -15,6 +16,7 @@ const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
 
     return (
         <div className="flex flex-col grow">
+            <StarfieldBackground />
             {page?.backgroundImage && <BackgroundImage {...page?.backgroundImage} />}
             {site.header && (
                 <Annotated content={site}>

@@ -20,14 +20,16 @@ export default function Action(props) {
     const IconComponent = icon ? iconMap[icon] : null;
 
     const baseClasses = [
-        'relative inline-flex items-center justify-center gap-1.5 text-center text-lg leading-tight no-underline transition lg:whitespace-nowrap'
+        'relative inline-flex items-center justify-center gap-1.5 text-center text-lg leading-tight no-underline transition-all duration-300 lg:whitespace-nowrap'
     ];
     if (type === 'Button') {
         label ? baseClasses.push('py-4 px-5') : baseClasses.push('p-4');
-        style === 'secondary' && baseClasses.push('rounded-full');
-        baseClasses.push('border-2 border-current hover:bottom-shadow-6 hover:-translate-y-1.5');
+        if (style === 'secondary') {
+            baseClasses.push('rounded-full');
+        }
+        baseClasses.push('bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white border-2 border-transparent hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 shadow-lg shadow-purple-500/40 hover:shadow-xl hover:shadow-purple-600/50 hover:-translate-y-1');
     } else {
-        baseClasses.push('uppercase bottom-shadow-1 hover:bottom-shadow-5');
+        baseClasses.push('uppercase text-white hover:text-purple-300 border-b-2 border-transparent hover:border-purple-400');
     }
 
     return (

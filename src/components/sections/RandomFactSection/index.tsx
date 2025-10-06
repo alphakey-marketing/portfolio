@@ -37,7 +37,7 @@ export default function RandomFactSection(props) {
             <div className={classNames('flex flex-col items-center gap-4', mapStyles({ textAlign: sectionAlign }))}>
                 <button
                     onClick={showRandomFact}
-                    className="px-8 py-4 text-lg font-medium bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                    className="px-8 py-4 text-lg font-medium bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white rounded-full hover:from-indigo-700 hover:via-purple-700 hover:to-pink-700 transition-all duration-300 shadow-lg shadow-purple-500/50 hover:shadow-xl hover:shadow-purple-600/60 transform hover:scale-105"
                 >
                     🎲 告訴我一個關於我的隨機事實
                 </button>
