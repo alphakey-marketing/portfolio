@@ -58,7 +58,7 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "url": "mailto:curryfishcake@gmail.com",
                 "altText": ""
             },
             {
@@ -71,12 +71,12 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "phoneNumber": "+85296783395",
+            "phoneAltText": "WhatsApp me",
+            "email": "curryfishcake@gmail.com",
+            "emailAltText": "Email me",
+            "address": "Sai Wan, Central and Western District, Hong Kong",
+            "addressAltText": "My location"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
         "styles": {

@@ -50,7 +50,7 @@ function Contacts(props) {
         <div id={elementId || null} className="max-w-3xl prose sm:prose-lg">
             {phoneNumber && (
                 <p>
-                    <a href={`tel:${phoneNumber}`} aria-label={phoneAltText}>
+                    <a href={`https://wa.me/${phoneNumber.replace(/\D/g, '')}`} aria-label={phoneAltText} target="_blank" rel="noopener noreferrer">
                         {phoneNumber}
                     </a>
                 </p>
