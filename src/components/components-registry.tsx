@@ -63,6 +63,7 @@ const components = {
     RecentPostsSection: dynamic(() => import('./sections/RecentPostsSection')),
     RecentProjectsSection: dynamic(() => import('./sections/RecentProjectsSection')),
     QuoteSection: dynamic(() => import('./sections/QuoteSection')),
+    RandomFactSection: dynamic(() => import('./sections/RandomFactSection')),
     SelectFormControl: dynamic(() => import('./molecules/FormBlock/SelectFormControl')),
     LabelsSection: dynamic(() => import('./sections/LabelsSection')),
     TestimonialsSection: dynamic(() => import('./sections/TestimonialsSection')),
