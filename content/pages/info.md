@@ -43,8 +43,8 @@ sections:
       從研究大蒜怎麼讓免疫力暴增，到玩轉數位廣告成效，我靠這身跨界背景和超靈直覺，準確讀懂消費者的心跳節奏，還能預測他們下一秒想買什麼!
     media:
       type: ImageBlock
-      url: /images/about.jpg
-      altText: Key Chan Profile
+      url: /images/profile-photo.jpg
+      altText: Key Chan 陳君彥 - 香港高街專業照片
     styles:
       self:
         height: auto
