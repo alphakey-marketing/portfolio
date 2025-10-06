@@ -1,29 +1,91 @@
 ---
 type: ProjectLayout
-title: One more cool project
+title: 電信增值服務：線上收益從0%到10%的轉型之路
 colors: colors-a
 date: '2022-01-22'
-client: Awesome client
+client: 電信業客戶
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  通過限時免費試用、多元收費模式與AI分群推薦，成功為傳統電信部門開啟線上收益新篇章，實現收益多元化轉型。
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
-  altText: Project thumbnail image
+  altText: 電信營銷轉型案例
 media:
   type: ImageBlock
   url: /images/bg3.jpg
-  altText: Project image
+  altText: Telecom Digital Transformation
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+## 📊 項目概況
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+**行業：** 電信  
+**角色：** 高級營銷執行  
+**團隊：** 4 人跨部門小組
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+---
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+## 🎯 挑戰與機遇
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+- **線上收益幾近零**：部門過去主要依賴線下門市與通話套餐，線上變現機制缺失。
+- **單一渠道風險**：過度依賴主套餐收入，一旦市場波動，整體業績易受影響。
+- **用戶需求多樣化**：消費者由單純通話或數據需求，延伸至影音、雲端、物聯網等增值服務。
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+---
+
+## 🚀 策略與執行
+
+### 1. 線上收益流新航道
+
+**市場洞察**  
+精準細分用戶：依照使用場景和偏好，繪製「流量型」「娛樂型」「商務型」三大用戶地圖。
+
+**吸引用戶自助購買**  
+- 推出**限時免費試用**，降低首次體驗門檻，讓潛在客戶無風險踏入線上渠道。
+- 在官網與App顯著位置展示試用入口，及時推播試用結束前的訂閱提醒。
+
+### 2. 收益結構轉型
+
+**多元收費模式**  
+在保留傳統合約之外，推出**月付訂閱**方案，滿足靈活用戶與年輕族群需求。
+
+**增值服務線上收入提升**  
+透過上述策略，將部門增值服務的**線上收入占比**從幾乎0%提高到約10%，顯著減少對主套餐的依賴。
+
+### 3. AI 驅動流程優化
+
+**用戶分群與推薦**  
+部署基礎機器學習模型，分析用戶行為，自動生成個性化服務建議。
+
+**效果監控與快速迭代**  
+建立線上營銷儀表板，實時追蹤試用轉化率與訂閱率，以季度為週期優化推廣素材與文案。
+
+---
+
+## 📈 量化成果
+
+- **線上收益占比增長**：部門線上變現渠道從0%躍升至約10%
+- **訂閱轉化率提升**：免費試用後的付費轉化率大幅改進至一位數百分比
+- **收入來源分散**：在短期內實現多元增值服務的線上自助銷售，減少主套餐依賴風險
+
+---
+
+## 💡 關鍵成功要素
+
+1. **精準洞察**：深入理解不同客群需求，設計契合的試用與訂閱方案。
+2. **靈活收費**：合約、月付並行，滿足多元場景需求。
+3. **系統思維**：將線上體驗、試用轉化與續訂流程串聯，形成閉環增長機制。
+4. **快速迭代**：依據數據快速調整活動節奏與內容。
+
+---
+
+## 🔍 學習與反思
+
+- **免費試用策略**：大幅降低用戶的試用門檻，是啟動線上自助購買的關鍵。
+- **多元訂閱模式**：月付方案吸引大量年輕族群，提升續訂率。
+- **跨部門協同**：營銷、產品、技術及客服緊密協作，確保方案順利推進並快速回饋。
+
+---
+
+## 🎯 結語
+
+通過「限時免費試用」、「多元收費模式」與「AI分群推薦」三大核心策略，成功為傳統電信部門開啟了線上收益新篇章，實現收益多元化轉型，為部門帶來可持續且穩健的增長。
