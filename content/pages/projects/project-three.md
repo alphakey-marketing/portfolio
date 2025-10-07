@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Telecom Value-Added Services: Digital Transformation Journey from 0% to 10% Online Revenue
+title: "Telecom Value-Added Services: Digital Transformation Journey from 0% to 10% Online Revenue"
 colors: colors-a
 date: '2022-01-22'
 client: Telecommunications Client

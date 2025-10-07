@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: How Hypnotherapy Practitioners Achieve Endless Client Flow with the "Hypnosis Clients On Demand" System
+title: "How Hypnotherapy Practitioners Achieve Endless Client Flow with the Hypnosis Clients On Demand System"
 colors: colors-a
 date: '2021-10-15'
 client: Hypnotherapy Practitioner Project

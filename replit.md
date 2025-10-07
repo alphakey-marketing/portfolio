@@ -81,6 +81,12 @@ Configured for autoscale deployment with:
 - Deployment target: autoscale (suitable for static sites)
 
 ## Recent Changes
+- 2025-10-07: **Project Case Studies Translation**
+  - Translated all three major project case studies to English
+  - Project One: Hypnosis Clients On Demand system
+  - Project Two: EdTech 332% revenue growth case study
+  - Project Three: Telecom digital transformation case study
+  - Maintained professional marketing tone and accurate terminology
 - 2025-10-07: **Bilingual System Implementation**
   - Implemented English-first bilingual website (English at `/`, Chinese at `/zh`)
   - Created LanguageSwitcher component with globe icon and language label (EN/中)

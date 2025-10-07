@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Hong Kong EdTech Company: 332% Revenue Growth in 4 Months - Complete Marketing Case Study
+title: "Hong Kong EdTech Company: 332% Revenue Growth in 4 Months - Complete Marketing Case Study"
 colors: colors-a
 date: '2021-12-20'
 client: Hong Kong Local EdTech Company
