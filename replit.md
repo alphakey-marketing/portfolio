@@ -1,7 +1,7 @@
-# Personal Portfolio Website - 行銷專家作品集
+# Personal Portfolio Website - Marketing Professional Portfolio
 
 ## Overview
-這是一個為香港行銷專家打造的 Next.js 個人作品集網站，採用現代網頁技術，整體視覺以**宇宙/外太空主題**為設計概念。網站內容全部以中文呈現，專為香港市場設計。
+A Next.js personal portfolio website for a marketing professional featuring **bilingual content** with English as the primary language (default at `/`) and Chinese as the optional secondary language (accessible via `/zh` path). The website showcases a modern **cosmic/outer space visual theme** with twinkling stars animation.
 
 ## Tech Stack
 - **Framework**: Next.js 15 with React 19
@@ -13,10 +13,20 @@
 ## Project Structure
 - `/src/pages/` - Next.js pages with dynamic routing
 - `/src/components/` - Reusable React components (atoms, molecules, sections, effects)
+- `/src/components/atoms/LanguageSwitcher/` - Language toggle component (EN/中)
 - `/src/components/effects/` - Visual effects (StarfieldBackground with twinkling stars animation)
 - `/src/css/` - Tailwind CSS configuration and custom styles
-- `/content/` - Markdown content files (Chinese language) for pages and projects
+- `/content/pages/` - English content (default language)
+- `/content/pages/zh/` - Chinese content (accessible via /zh path)
+- `/content/data/config.json` - Site configuration with English navigation labels
 - `/public/images/` - Cosmic/space themed background images (bg1-4.jpg: nebulas, galaxies, deep space)
+
+## Internationalization (i18n) Architecture
+- **Path-based routing**: English at `/`, Chinese at `/zh`
+- **Client-side translation**: Components detect language via `router.asPath.startsWith('/zh')`
+- **Translation mapping**: Dictionary-based translations in Header and RandomFactSection
+- **Language switcher**: Globe icon (🌐) with "EN" or "中" label in navigation header
+- **Known limitation**: Brief English flash on /zh initial load due to client-side hydration (functional but not SSR-optimized)
 
 ## Visual Design - Cosmic Theme
 - **背景圖片**: 四張高質量宇宙主題圖（星雲、星系、深空景觀）
@@ -40,8 +50,22 @@
   - Displays 4 fun facts about the portfolio owner
   - Cosmic styled button matching site theme
   - Prevents showing the same fact twice in a row
+  - Bilingual support with language-specific facts
 
-## Content (Chinese Language)
+- **LanguageSwitcher** (`src/components/atoms/LanguageSwitcher/index.tsx`):
+  - Globe icon (🌐) with language label (EN or 中)
+  - Cosmic gradient styling matching site theme
+  - Toggles between `/` (English) and `/zh` (Chinese) paths
+  - Integrated in Header component (both desktop and mobile views)
+
+## Content Structure
+**English Version (Default - `/`):**
+- **Homepage**: Typewriter animation title, personal introduction, random facts button
+- **Portfolio**: Three major marketing case studies (Hypnotherapy Client Acquisition, EdTech 332% Growth, Telecom Digital Transformation)
+- **About**: Professional resume, work experience (HTCL, Big Bang Academy, Alphaknot)
+- **Contact**: WhatsApp (+85296783395), Email (curryfishcake@gmail.com), Location (Sai Wan, Hong Kong)
+
+**Chinese Version (`/zh`):**
 - **首頁**: 打字機動畫標題、個人簡介、趣味小知識按鈕
 - **作品集**: 三個重要行銷案例（催眠獲客、教育科技332%增長、電訊數碼轉型）
 - **關於我**: 專業履歷，工作經驗（HTCL, Big Bang Academy, Alphaknot）
@@ -57,6 +81,13 @@ Configured for autoscale deployment with:
 - Deployment target: autoscale (suitable for static sites)
 
 ## Recent Changes
+- 2025-10-07: **Bilingual System Implementation**
+  - Implemented English-first bilingual website (English at `/`, Chinese at `/zh`)
+  - Created LanguageSwitcher component with globe icon and language label (EN/中)
+  - Translated all homepage and info page content to English
+  - Added client-side language detection and translation logic in Header and RandomFactSection
+  - Removed duplicate config-zh.json file that was causing navigation bugs
+  - Successfully tested both language versions with proper UI localization
 - 2025-10-06: **Cosmic Theme Complete Redesign**
   - Downloaded and integrated space/nebula background images (bg1-bg4.jpg)
   - Created StarfieldBackground component with twinkling stars animation
@@ -71,12 +102,13 @@ Configured for autoscale deployment with:
 
 ## Features
 - **Cosmic visual theme** with twinkling stars animation
+- **Bilingual support** with English (default) and Chinese (via /zh path)
+- **Language switcher** with globe icon for easy language switching
 - Responsive design with mobile-first approach
-- Chinese language content targeting Hong Kong market
 - Three major marketing case studies showcase
 - Professional resume with work history
 - WhatsApp-enabled contact integration
-- Random fun facts feature
+- Random fun facts feature with bilingual content
 - SEO optimized with meta tags
 - Hot module replacement for development
 - Static site generation for optimal performance
