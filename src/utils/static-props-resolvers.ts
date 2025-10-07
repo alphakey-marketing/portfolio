@@ -71,9 +71,21 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
     },
     ProjectFeedLayout: (props, allData) => {
         const allProjects = getAllProjectsSorted(allData);
+        const pageUrlPath = props.__metadata?.urlPath || '';
+        const isZhPage = pageUrlPath.startsWith('/zh/');
+        
+        const filteredProjects = allProjects.filter((project) => {
+            const projectUrlPath = project.__metadata?.urlPath || '';
+            if (isZhPage) {
+                return projectUrlPath.startsWith('/zh/projects/');
+            } else {
+                return projectUrlPath.startsWith('/projects/') && !projectUrlPath.startsWith('/zh/');
+            }
+        });
+        
         return {
             ...(props as ProjectFeedLayout),
-            items: allProjects
+            items: filteredProjects
         };
     },
     RecentProjectsSection: (props, allData) => {
