@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 import { Link, Social } from '@/components/atoms';
+import LanguageSwitcher from '@/components/atoms/LanguageSwitcher';
 import ImageBlock from '@/components/molecules/ImageBlock';
 import CloseIcon from '@/components/svgs/close';
 import MenuIcon from '@/components/svgs/menu';
@@ -98,12 +99,15 @@ function HeaderVariantC(props) {
             {primaryLinks.length > 0 && (
                 <ul
                     className={classNames('hidden border-l border-current divide-x divide-current lg:flex', {
-                        'ml-auto': primaryLinks.length === 0
+                        'ml-auto': socialLinks.length === 0
                     })}
                 >
                     <ListOfLinks links={primaryLinks} inMobileMenu={false} />
                 </ul>
             )}
+            <div className="hidden lg:flex items-center border-l border-current px-4">
+                <LanguageSwitcher />
+            </div>
             {(primaryLinks.length > 0 || socialLinks.length > 0) && <MobileMenu {...props} />}
         </div>
     );
@@ -160,6 +164,9 @@ function MobileMenu(props) {
                                     <ListOfSocialLinks links={socialLinks} inMobileMenu={true} />
                                 </ul>
                             )}
+                            <div className="pt-4">
+                                <LanguageSwitcher className="text-lg px-6 py-3" />
+                            </div>
                         </div>
                     )}
                 </div>

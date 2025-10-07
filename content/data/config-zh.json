@@ -5,22 +5,22 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "個人專區",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "About",
+                "label": "簡介",
                 "url": "/info"
             },
             {
                 "type": "Link",
-                "label": "Projects",
+                "label": "過往項目",
                 "url": "/projects"
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "網誌",
                 "url": "/blog"
             }
         ],
@@ -51,19 +51,19 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "About",
+                "label": "簡介",
                 "url": "/info",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Contact",
+                "label": "聯絡我們",
                 "url": "mailto:curryfishcake@gmail.com",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Blog",
+                "label": "網誌",
                 "url": "/blog",
                 "altText": ""
             }

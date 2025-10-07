@@ -13,18 +13,15 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: "Coffee or tea? Right, wrong, or neutral? I carefully consider it all."
+    title: 「咖啡還是茶？對、錯還是中性？我都會細心考慮。」
     subtitle: >-
-      Hi, I'm a slightly unconventional marketer.
+      Hi，我是個有點奇怪的營銷人。
 
+      白天，我幫品牌寫文案、分析數據、設計策略；晚上，我會靜心冥想，用靈性直覺感受品牌背後的真實能量。週末？你會在羽球場找到我，大汗淋漓地追著小白球跑。
 
-      By day, I craft copy, analyze data, and design strategies for brands. By night, I meditate in stillness, using spiritual intuition to sense the authentic energy behind each brand. Weekends? You'll find me on the badminton court, chasing that little white shuttlecock with sweat dripping down.
+      朋友說我很細心（有時候細心到有點煩），但我最自豪的是能從「對、錯、中性」三個角度看問題。這讓我在營銷這個充滿灰色地帶的世界裡，總能找到平衡點。
 
-
-      Friends say I'm detail-oriented (sometimes annoyingly so), but what I'm most proud of is my ability to view problems from three perspectives: right, wrong, and neutral. This helps me find balance in the gray-area world of marketing.
-
-
-      I believe the best marketing strategy is like playing badminton: it requires technique, but even more so, intuition.
+      我相信最好的營銷策略，就像打羽毛球一樣：需要技巧，更需要直覺。
     styles:
       self:
         height: auto
@@ -113,31 +110,31 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Spiritual insight + Professional care ~ Let's navigate marketing with clarity and ease. Reach out... 💬"
+    title: "靈性感知 + 專業細心~ 助你營銷睇得透，做得自在，揾我傾吓啦...\U0001F4AC"
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
         - name: firstName
-          label: Your Name
+          label: 你的名字
           hideLabel: true
-          placeholder: Your Name
+          placeholder: First Name
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: whatsappNumber
-          label: WhatsApp Number
+        - name: Whatsapp 電話
+          label: Whatsapp 電話
           hideLabel: true
-          placeholder: WhatsApp Number
+          placeholder: Whatsapp 電話
           isRequired: true
           width: 1/2
           type: EmailFormControl
         - name: updatesConsent
-          label: I'd like to receive monthly updates and articles
+          label: 我想收到每月最新分享文章
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit 🚀"
+      submitLabel: "提交\U0001F680"
       styles:
         self:
           textAlign: center
