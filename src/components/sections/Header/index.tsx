@@ -10,8 +10,45 @@ import MenuIcon from '@/components/svgs/menu';
 import HeaderLink from './HeaderLink';
 
 export default function Header(props) {
-    const { isSticky, styles = {}, ...rest } = props;
+    const { isSticky, styles = {}, primaryLinks = [], title, ...rest } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
+    const router = useRouter();
+    const [isMounted, setIsMounted] = useState(false);
+    
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+    
+    const isZh = isMounted && router.asPath.startsWith('/zh');
+    
+    const translations = {
+        'About': { en: 'About', zh: '簡介' },
+        'Projects': { en: 'Projects', zh: '過往項目' },
+        'Blog': { en: 'Blog', zh: '網誌' },
+        'Contact': { en: 'Contact', zh: '聯絡我們' },
+        'Personal': { en: 'Personal', zh: '個人專區' }
+    };
+    
+    const translateLabel = (label) => {
+        const translation = translations[label];
+        return translation ? (isZh ? translation.zh : translation.en) : label;
+    };
+    
+    const translateUrl = (url) => {
+        if (isZh && !url.startsWith('/zh') && url.startsWith('/')) {
+            return `/zh${url}`;
+        }
+        return url;
+    };
+    
+    const translatedLinks = isMounted ? primaryLinks.map(link => ({
+        ...link,
+        label: translateLabel(link.label),
+        url: translateUrl(link.url)
+    })) : primaryLinks;
+    
+    const translatedTitle = isMounted ? translateLabel(title) : title;
+    
     return (
         <header className={classNames(isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b border-current')}>
             <div
@@ -24,7 +61,7 @@ export default function Header(props) {
                 <Link href="#main" className="sr-only">
                     Skip to main content
                 </Link>
-                <HeaderVariants {...rest} />
+                <HeaderVariants {...rest} title={translatedTitle} primaryLinks={translatedLinks} />
             </div>
         </header>
     );
