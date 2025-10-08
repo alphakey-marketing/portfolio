@@ -45,9 +45,21 @@ type ResolverFunction = (props: ContentObject, allData: ContentObject[]) => Cont
 const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
     PostFeedLayout: (props, allData) => {
         const allPosts = getAllPostsSorted(allData);
+        const pageUrlPath = props.__metadata?.urlPath || '';
+        const isZhPage = pageUrlPath.startsWith('/zh/');
+        
+        const filteredPosts = allPosts.filter((post) => {
+            const postUrlPath = post.__metadata?.urlPath || '';
+            if (isZhPage) {
+                return postUrlPath.startsWith('/zh/blog/');
+            } else {
+                return postUrlPath.startsWith('/blog/') && !postUrlPath.startsWith('/zh/');
+            }
+        });
+        
         return {
             ...(props as PostFeedLayout),
-            items: allPosts
+            items: filteredPosts
         };
     },
     RecentPostsSection: (props, allData) => {
