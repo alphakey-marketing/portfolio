@@ -81,6 +81,14 @@ Configured for autoscale deployment with:
 - Deployment target: autoscale (suitable for static sites)
 
 ## Recent Changes
+- 2025-10-08: **Server-Side Content Filtering Implementation**
+  - Implemented server-side filtering for both projects and blog posts during static generation (SSG)
+  - Modified ProjectFeedLayout and PostFeedLayout resolvers in `static-props-resolvers.ts`
+  - English pages (`/projects`, `/blog`) now only show English content
+  - Chinese pages (`/zh/projects`, `/zh/blog`) now only show Chinese content
+  - Organized blog content: English blogs in `/content/pages/blog/`, Chinese blog in `/content/pages/zh/blog/`
+  - Eliminated hydration mismatches by filtering at build-time instead of client-side
+  - Current blog inventory: 6 English blogs, 1 Chinese blog (星巴克香港限定)
 - 2025-10-07: **Project Case Studies Translation**
   - Translated all three major project case studies to English
   - Project One: Hypnosis Clients On Demand system
