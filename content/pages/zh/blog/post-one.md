@@ -100,7 +100,7 @@ bottomSections:
 聖誕期間，星巴克推出的限定商品系列更是將節日氛圍推向高峰。從經典的紅杯設計到聖誕主題的Bearista熊，每一個細節都在訴說著節日的故事。2024年的聖誕系列更以「嘉年華時光」為主題，將雪人、薑餅人等元素融入設計，成功創造出無數的打卡時刻。
 
 <div style="max-width: 500px; margin: 20px auto;">
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D953948733433671%26set%3Da.638633454965202&show_text=true&width=500" width="500" height="713" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D953948733433671%26set%3Da.638633454965202&show_text=true&width=500" width="500" height="713" style="border:none;overflow:hidden;background-color:white" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </div>
 
 ## 25周年慶典：本土化的完美示範
@@ -112,7 +112,7 @@ bottomSections:
 最令人印象深刻的，是本地藝術家蕭俞（Zoe Siu）親手製作的25隻獨一無二的Bearista熊。從穿著粵劇戲服的星巴克熊，到充滿街市風情的設計，再到經典的紅白藍袋元素，每一隻熊都在訴說著香港的獨特故事。
 
 <div style="max-width: 500px; margin: 20px auto;">
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D1168355398659669%26set%3Dpcb.1168355431992999&show_text=true&width=500" width="500" height="713" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D1168355398659669%26set%3Dpcb.1168355431992999&show_text=true&width=500" width="500" height="713" style="border:none;overflow:hidden;background-color:white" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </div>
 
 我曾在現場看到一位年輕媽媽帶著女兒，一隻一隻地找尋不同主題的星巴克熊拍照。小女孩興奮地指著粵劇熊說：「媽媽，這個像奶奶看的戲！」這一刻，品牌成功地跨越了世代，將香港的傳統文化與現代生活連結起來。
