@@ -8,7 +8,7 @@ description: >-
   通過完整客戶旅程設計、CRM系統建置、多渠道整合與AI驅動決策，4個月內實現332%營收增長。
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/edtech-project.jpg
   altText: EdTech Marketing Success
 media:
   type: ImageBlock

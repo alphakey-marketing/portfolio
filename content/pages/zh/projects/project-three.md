@@ -8,7 +8,7 @@ description: >-
   通過限時免費試用、多元收費模式與AI分群推薦，成功為傳統電信部門開啟線上收益新篇章，實現收益多元化轉型。
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/telecom-project.jpg
   altText: 電信營銷轉型案例
 media:
   type: ImageBlock

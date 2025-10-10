@@ -8,7 +8,7 @@ description: >-
   Through time-limited free trials, diversified pricing models, and AI-based segmentation recommendations, successfully launched new online revenue streams for a traditional telecom department, achieving revenue diversification transformation.
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/telecom-project.jpg
   altText: Telecom Marketing Transformation Case
 media:
   type: ImageBlock
