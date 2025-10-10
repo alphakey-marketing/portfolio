@@ -8,8 +8,8 @@ excerpt: >-
   From the autumn ritual of Pumpkin Spice Latte to the perfect local demonstration of the 25th anniversary celebration, Starbucks in Hong Kong is not just selling coffee, but creating a lifestyle and community experience.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image1.jpg
-  altText: Starbucks Hong Kong
+  url: /images/starbucks-counter.jpg
+  altText: Starbucks Hong Kong - Inside counter view
 bottomSections:
   - elementId: ''
     type: RecentPostsSection

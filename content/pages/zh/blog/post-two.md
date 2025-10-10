@@ -15,8 +15,8 @@ excerpt: >-
   探索星巴克如何透過懷舊營銷、社會責任計劃以及社交媒體打卡經濟的力量，從第三空間轉變為香港的社群中心。
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
-  altText: Post thumbnail image
+  url: /images/starbucks-storefront.jpg
+  altText: 星巴克咖啡店面
 bottomSections:
   - elementId: ''
     type: RecentPostsSection

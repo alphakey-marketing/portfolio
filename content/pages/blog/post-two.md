@@ -15,8 +15,8 @@ excerpt: >-
   Exploring how Starbucks transforms from third space to community center through nostalgia marketing, social responsibility initiatives, and the power of social media check-ins in Hong Kong.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
-  altText: Post thumbnail image
+  url: /images/starbucks-storefront.jpg
+  altText: Starbucks Coffee storefront
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
