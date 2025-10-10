@@ -8,8 +8,8 @@ excerpt: >-
   從南瓜拿鐵的秋日儀式感到25周年慶典的本土化完美示範，星巴克在香港不只是賣咖啡，更是在創造一種生活方式和社群體驗。
 featuredImage:
   type: ImageBlock
-  url: /images/starbucks-counter.jpg
-  altText: 星巴克香港 - 店內櫃台景觀
+  url: /images/starbucks-storefront.jpg
+  altText: 星巴克咖啡店面外觀
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
