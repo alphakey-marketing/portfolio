@@ -8,7 +8,7 @@ description: >-
   專為催眠治療師設計的客戶獲取系統，幫助催眠師實現客戶源源不絕，業績翻倍增長的夢想。
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/hypnosis-project.jpg
   altText: 催眠治療師成功案例
 media:
   type: ImageBlock

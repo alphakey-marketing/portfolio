@@ -8,7 +8,7 @@ description: >-
   Through comprehensive customer journey design, CRM system implementation, multi-channel integration, and AI-driven decision-making, achieved 332% revenue growth in 4 months.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/edtech-project.jpg
   altText: EdTech Marketing Success
 media:
   type: ImageBlock

@@ -8,7 +8,7 @@ description: >-
   A client acquisition system designed specifically for hypnotherapy practitioners, helping hypnotherapists achieve endless client flow and double their revenue.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/hypnosis-project.jpg
   altText: Hypnotherapy Success Case Study
 media:
   type: ImageBlock
