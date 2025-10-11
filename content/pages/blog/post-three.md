@@ -92,9 +92,9 @@ Last week, I was elbow-deep in spreadsheets and AdWords settings for our upcomin
 
 ![Ancient wisdom meets modern marketing](/images/ancient-wisdom-marketing.jpg)
 
-## Rethinking Brand Value
+## Our Core Value
 
-Nan reminds us that our body is merely a vessel; our true self lives in the mind. I realized my last campaign highlighted flashy features but missed the brand's deeper purpose. So I paused, sketched a "brand soul map," and centered our messaging on the heartfelt promise behind the product. The very next client meeting was a revelation: "Finally, this feels authentic," they said.
+Nan reminds us our body is just a vessel—our real self lives in the mind. I had noticed my last campaign flashed all the features but missed the brand’s heart. So I stopped, doodled a “brand soul map,” and refocused our copy on the product’s true promise. The next meeting was wild: “This finally feels real,” the client said.
 
 ## That First Step Matters Most
 
